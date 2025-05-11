@@ -9,7 +9,7 @@ serversocket.bind((host, port))
 serversocket.listen()
 
 while True:
-    clientsocket, address - serversocket.accept()
+    clientsocket, address = serversocket.accept()
 
     print("Received connection from %s" % str(address))
 
